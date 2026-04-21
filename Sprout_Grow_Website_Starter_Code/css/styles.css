@@ -1,0 +1,45 @@
+/* Basic CSS file for Sprout & Grow website */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #dad3b3;
+    color: #afc378;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+body {
+    background-color: #f5f5dc;
+    color: #333;
+} 
+.logo {
+    display: block;
+    margin: 0 auto;      
+    max-width: 1200px;    
+    width: 200%;         
+    height: auto;
+}
+.center-image {
+    display: block;
+    margin: 20px auto;    
+    max-width: 1200px;    
+    width: 100%;         
+    height: auto;
+}
+footer img {
+    width: 30px;
+    margin: 30px;
+}
+
+/* Add specific styles for navigation, main content, images, etc. */
